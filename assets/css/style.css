@@ -137,13 +137,6 @@ h3 {
     margin-left: 10px;
 }
 
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-
 #ad4middle {
     position: relative;
     bottom: 15px;
@@ -166,7 +159,6 @@ h3 {
     float: right;
     margin-right: 50px;
 }
-
 .text-block3 {
     position: absolute
     bottom: 5px;
@@ -295,6 +287,7 @@ form {
     h1 {
         width: auto;
         height: auto;
+        margin-left: 20px;
     }
 
     #navbar ul, #navbar ul li, #navbar li:not(:first-child):before {
@@ -303,6 +296,12 @@ form {
         padding: 5px;
         }
 
+    #navbar {
+        float: left;
+        margin-left: 100px;
+        padding: 5px;
+    }
+
     .content {
         width: 100%;
         height: auto;
@@ -310,89 +309,279 @@ form {
         padding: 10px;
     }
     
-    #myinfo.{
+    #myinfo {
         width: 100%;
         float: left;
         padding: 10px;
     }
     
     p {
-        font-size: 12px;
+        font-size: 10px;
         padding: 10px;
     }
 
-   a {
-        width: 50%;
+
+    h3 {
+        font-size: 10px;
+        width: auto;
     }
 
+    #ad3left {
+        bottom: 20px;
+        max-width: 10%;
+        margin-left: 20px;
+        padding: 5px;
+    }
 
+    #ad4middle {
+        bottom: 20px;
+        max-width: 10%;
+        margin-left: 20px;
+        padding: 5px;
+    }
 
+    #ad5right {
+        bottom: 10px;
+        max-width: 12%;
+        float: left;
+        margin-left: 20px;
+        padding: 5px;
+    }
 
+    #bottomleft {
+        top: 220px;
+        max-width: 10%;
+        margin-left: 300px;
+        padding: 5px;;
+    }
 
+    #bottommiddle {
+        top: 240px;
+        max-width: 15%;
+        margin-left: 380px;
+        padding: 5px;
+    }
 
+    #bottomright {
+        top: 220px;
+        max-width: 10%;
+        margin-left: 500px;
+        padding: 5px;
+    }
 
+    .input [type=text] {
+        width: 580px;
+        padding: 10px;
+    }
 
-
-
-
+    .input[type=text], select, textarea {
+        width: 560px;
+        padding: 10px;
+    }
 
     footer {
         width: 100%;
     }
-
-
-   
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
 
 @media screen and (min-width: 641px) and (max-width: 768px) {
-    body {
-        width: 75%;
-        height: 75%
+
+    h1 {
+        width: auto;
+        height: auto;
+        margin-left: 20px;
     }
+
+    #navbar ul, #navbar ul li, #navbar li:not(:first-child):before {
+        text-align: center;
+        width: 100%;
+        padding: 5px;
+        }
+
+    #navbar {
+        float: left;
+        margin-left: 220px;
+        padding: 5px;
+    }
+
+    .content {
+        width: 100%;
+        height: auto;
+        float: left;
+        padding: 10px;
+    }
+    
+    #myinfo {
+        width: 100%;
+        float: left;
+        padding: 10px;
+    }
+    
+    h3 {
+        font-size: 10px;
+        width: auto;
+    }
+
+    #ad3left {
+        bottom: 20px;
+        max-width: 10%;
+        margin-left: 20px;
+        padding: 5px;
+    }
+
+    #ad4middle {
+        bottom: 20px;
+        max-width: 10%;
+        margin-left: 40px;
+        padding: 5px;
+    }
+
+    #ad5right {
+        bottom: 10px;
+        max-width: 12%;
+        float: left;
+        margin-left: 30px;
+        padding: 5px;
+    }
+
+    #bottomleft {
+        top: 220px;
+        max-width: 10%;
+        margin-left: 380px;
+        padding: 5px;;
+    }
+
+    #bottommiddle {
+        top: 240px;
+        max-width: 15%;
+        margin-left: 490px;
+        padding: 5px;
+    }
+
+    #bottomright {
+        top: 220px;
+        max-width: 10%;
+        margin-left: 630px;
+        padding: 5px;
+    }
+
+    .input [type=text] {
+        width: 710px;
+        padding: 10px;
+    }
+
+    .input[type=text], select, textarea {
+        width: 690px;
+        padding: 10px;
+    }
+
+    footer {
+        width: 100%;
+    } 
 }
 
 
-
-
-
 @media screen and (min-width: 769px) and (max-width: 980px) {
-    body {
+
+    h1 {
+        width: auto;
+        height: auto;
+        margin-left: 20px;
+    }
+
+    #navbar ul, #navbar ul li, #navbar li:not(:first-child):before {
+        text-align: center;
         width: 100%;
-        height: 100%
+        padding: 5px;
+        }
+
+    #navbar {
+        float: left;
+        margin-left: 220px;
+        padding: 5px;
+    }
+
+    .content {
+        width: 100%;
+        height: auto;
+        float: left;
+        padding: 10px;
+    }
+    
+    #myinfo {
+        width: 100%;
+        float: left;
+        padding: 10px;
+    }
+    
+    p {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    h3 {
+        font-size: 10px;
+        width: auto;
+    }
+
+    #ad3left {
+        bottom: 20px;
+        max-width: 10%;
+        margin-left: 20px;
+        padding: 5px;
+    }
+
+    #ad4middle {
+        bottom: 20px;
+        max-width: 10%;
+        margin-left: 40px;
+        padding: 5px;
+    }
+
+    #ad5right {
+        bottom: 10px;
+        max-width: 12%;
+        float: left;
+        margin-left: 30px;
+        padding: 5px;
+    }
+
+    #bottomleft {
+        top: 220px;
+        max-width: 10%;
+        margin-left: 380px;
+        padding: 5px;;
+    }
+
+    #bottommiddle {
+        top: 240px;
+        max-width: 15%;
+        margin-left: 490px;
+        padding: 5px;
+    }
+
+    #bottomright {
+        top: 220px;
+        max-width: 10%;
+        margin-left: 630px;
+        padding: 5px;
+    }
+
+    .input [type=text] {
+        width: 710px;
+        padding: 10px;
+    }
+
+    .input[type=text], select, textarea {
+        width: 690px;
+        padding: 10px;
+    }
+
+    footer {
+        width: 100%;
     }
 }
 
